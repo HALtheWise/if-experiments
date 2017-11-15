@@ -5,7 +5,7 @@ var Event = function(type, data) {
 	if (data===undefined) {
 		data = {};
 	}
-	
+
 	this.type = type;
 	this.data = data;
 }
